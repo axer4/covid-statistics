@@ -11,4 +11,4 @@ ReactDOM.render(
 
 
 
-console.log('Привіт, світ! Життя химерне!');
+

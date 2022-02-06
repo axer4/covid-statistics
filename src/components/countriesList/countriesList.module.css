@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+.countriesBlock {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.list {
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 20px;
+}
+.firstItem {
+  background-color: #2196f3;
+  list-style: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.country {
+  display: inline-block;
+  padding: 23px 0;
+  padding-left: 23px;
+  border-left: 1px solid white;
+  width: 1160px;
+}
+.total {
+  margin-right: auto;
+  border-left: 1px solid white;
+  padding: 23px 0;
+  padding-left: 23px;
+}
+.separator {
+  display: inline-block;
+}
+/* ------------------ */
+.item {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.item:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.countryName {
+  display: inline-block;
+  width: 1160px;
+  padding: 23px 0;
+  padding-left: 23px;
+  border-left: 1px solid #b2b2b2;
+}
+.totalNumbers {
+  border-left: 1px solid #b2b2b2;
+  padding: 23px 0;
+  padding-left: 23px;
+  margin-right: auto;
+}
+.numberSymbol {
+  padding: 26px 28.5px;
+}
+.number {
+  padding: 26px 34px;
+}
